@@ -1,3 +1,4 @@
-# serverless
+# node-lambda
 
-Dockerfile that starts with the node image and adds [assume-role](https://github.com/remind101/assume-role). We use it for deploying [Serverless](https://github.com/serverless/serverless) apps.
+Dockerfile which adds the AWS CLI tool set to the node base image. Contrast
+Security uses the image to deploy node.js code to AWS Lambda
